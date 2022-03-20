@@ -1,0 +1,57 @@
+*, *::after, *::after {
+    padding:0; 
+    margin:0;
+}
+
+:root {
+    --header: rgb(240, 240, 174);
+    --footer: rgb(224, 223, 223);
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--header);
+    font-size: 2rem;
+    padding: 20px
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem;
+    font-size: 3rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 5rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(93, 93, 93);
+    font-weight: 900;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: var(--footer);
+}
