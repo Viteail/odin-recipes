@@ -25,9 +25,9 @@ body {
 .content {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin: 5rem;
-    font-size: 3rem;
 }
 
 ul {
@@ -55,4 +55,21 @@ a {
     width: 100%;
     padding: 15px;
     background-color: var(--footer);
+}
+
+.menu {
+    display: flex;
+    font-size: 3rem;
+}
+
+.photos {
+    height: 300px;
+    width: 300px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    border: 2px solid wheat;
+    border-radius: 50px;
 }
