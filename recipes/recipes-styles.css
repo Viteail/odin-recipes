@@ -1,9 +1,7 @@
 body {
     margin: 0;
     min-height: 100vh;
-    padding-left: 10%;
-    padding-right: 10%;
-    background-color: rgb(212, 236, 255);
+    background-color: rgb(212, 236, 255)
 }
 
 .header {
@@ -22,7 +20,7 @@ body {
     bottom: 0;
     width: 100%;
     padding: 15px;
-    background: rgb(224, 223, 223);
+    background: rgb(190, 190, 190);
 }
 
 .content {
@@ -32,7 +30,7 @@ body {
     justify-content: center;
     align-items: center;
     background: whitesmoke;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 a {
@@ -56,11 +54,47 @@ img {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(212, 236, 255);
     width: 100%;
     font-size: 20px;
+    background-color: rgb(231, 242, 251);
+}
+
+.info-align {
+    width: 1000px;
 }
 
 .BigSizeTxt {
     font-size: 32px;
+}
+
+.MediumSizeTxt {
+    font-size: 24px;
+}
+
+.Ingredients {
+    background-color: antiquewhite;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Lists {
+    color: rgb(90, 88, 88);
+    font-size: 20px;
+}
+
+li {
+    margin: 10px;
+}
+
+.Steps {
+    background-color: rgb(225, 228, 227);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 20px;
 }
